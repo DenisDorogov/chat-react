@@ -6,7 +6,7 @@ export const authReduser = createSlice({
     userId: 1,
     email: 'user@mail.com',
     login: 'John',
-    isAuth: true,
+    isAuth: false,
     captchaUrl: null // if null, then captcha is not required
   },
   reducers: {

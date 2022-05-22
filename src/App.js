@@ -13,9 +13,9 @@ function App() {
     <>
       <Header />
       <Routes >
-        <Route path='/' element={<StartPage />}/>
+        {/* <Route path='/' element={<StartPage />}/> */}
         { auth.isAuth === true ?
-        <Route path='/prifile' element={<StartPage />}/> :
+        <Route path='/profile' element={<StartPage />}/> :
         <Route path='/profile' element={<Profile />}/>
         }
       </Routes>
